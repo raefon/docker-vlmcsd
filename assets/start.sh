@@ -6,4 +6,4 @@ if [ ! -f /config/vlmcsd.ini ]; then
 fi
 
 echo "Starting vlmcsd..."
-/usr/bin/vlmcsd -D -i /config/vlmcsd.ini
+/usr/bin/vlmcsd -D -e -i /config/vlmcsd.ini
